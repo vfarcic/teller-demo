@@ -1,0 +1,10 @@
+project: dot
+providers:
+  google_secretmanager:
+    env:
+      DB_ENDPOINT:
+        path: projects/dot-20230705201208/secrets/my-db-host/versions/1
+      DB_USER:
+        path: projects/dot-20230705201208/secrets/my-db-user/versions/1
+      DB_PASSWORD:
+        path: projects/dot-20230705201208/secrets/my-db-password/versions/1
