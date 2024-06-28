@@ -1,0 +1,7 @@
+providers:
+  google_secrets_manager:
+    kind: google_secretmanager
+    maps:
+      - id: testsecret
+        path: projects/123456789
+        field: testsecret
